@@ -1,0 +1,118 @@
+<!--
+  Generated template for the MyCatsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <div >
+    
+      <ul>
+        <li (click)="goHome()" >Home</li>
+        <li (click)="goCaring()">Caring</li>
+        <li (click)="goTraining()" >Training</li>
+        <li (click)="goFeeding()">Feeding</li>
+        <li (click)="goHealth()">Health</li>
+        <li (click)="goCats()" class="active">My Cats</li>
+      </ul>
+  
+    </div>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding="75px">
+<div align="center">
+  <h3 class="cat">My Own Cats</h3>
+</div>
+
+
+<div padding>
+  <p text-align="center" class="catcontent" >Currently, I own 3 adult cats and 4 kittens. Taking care of them is no easy task but somehow I manage
+     to do it everyday.</p>
+
+  </div>
+     
+       <ion-grid> 
+         <ion-row justify-content-center>
+
+           <ion-col>
+              <ion-card> 
+
+                  <img src="assets/imgs/IMG_5273.jpg" height="550">
+
+                  <ion-card-content align="left">
+                    <ion-card-title class="cat">
+                        Feliciano: The Happy One
+                      </ion-card-title>
+                    <h2 class="catcontentsss">
+                        I usually just call him Fel. He’s a quiet and calm 5 year old cat. Even when he was still
+                        a kitten, he would always be alone, sleeping and ignoring his siblings. And unlike most cats 
+                        that bite when you let them on the stomach area, he usually just stares at you when you do 
+                        that to him. He likes to ignore me. He likes to ignore the people around him. He may act 
+                        like that but he usually misses me whenever I leave the house for a few days to spend my 
+                        vacation somewhere else.
+                    </h2>
+                  </ion-card-content>
+                </ion-card>
+           </ion-col>
+           <ion-col>
+              <ion-card>
+                <ion-thumbnail>
+                  <img class='gago' src="assets/imgs/bear.jpg"  height='550'>
+                </ion-thumbnail>
+                  <ion-card-content align="left">
+                    <ion-card-title class="cat">
+                        Bear
+                      </ion-card-title>
+                    <h2 class="catcontentsss">
+                        She used to have a brother named Snow as my mother really liked the Snowbear mint candies. 
+                        She is Feliciano and Kitkat’s daughter. She acts like Kitkat but she looks more of her 
+                        father. She is currently pregnant and is bound to give birth next month.
+                    </h2>
+                  </ion-card-content>
+                </ion-card>
+           </ion-col>
+           
+
+         </ion-row>
+
+         <ion-row>
+           
+           <ion-col>
+              <ion-card>
+                  <img class="img" src="assets/imgs/IMG_0038.jpg" width="50%" height="50%" padding align="center">
+                  <ion-card-content align="left">
+                    <ion-card-title class="cat">
+                        Kitkat
+                      </ion-card-title>
+                    <h2 class="catcontentsss">
+                        My feline daughter. As a kitten, she was a very playful and active animal. She is now 
+                        3 years old and has toned down her playfulness a little bit. She acts like most common 
+                        cats, but she is the most affectionate out of all my pets that’s why I love her.
+                    </h2>
+                  </ion-card-content>
+                </ion-card>
+           </ion-col>
+           <ion-col>
+              <ion-card>
+                  <img class="img" src="assets/imgs/four_kittens.jpg" width="50%" height="421px" padding align="center">
+                  <ion-card-content align="left">
+                    <ion-card-title class="cat">
+                        The 4 Kittens 
+                      </ion-card-title>
+                    <h2 class="catcontentsss">
+                        These four little black kittens were born on March 24. Currently, they now know how to run.
+                    </h2>
+                  </ion-card-content>
+                </ion-card>
+           </ion-col>
+
+         </ion-row>
+
+       </ion-grid>
+              
+</ion-content>

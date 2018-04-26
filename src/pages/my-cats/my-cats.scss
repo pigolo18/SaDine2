@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "Bebas Neue";
+    src: url(../../assets/fonts/BebasNeue-Regular.ttf);
+  }
+
+page-my-cats {
+
+    // ion-card{
+    //     width:70%;
+    //     // Height:55%;
+    //     }
+    .active {
+        background-color: color($colors, test6);
+        color: rgb(55, 55, 55);
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0px;
+        background-color: rgb(247, 130, 63);
+    }
+    
+    li {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        float: left;
+        font-family: 'Bebas Neue';
+        font-size: 36px;
+        background-color: rgb(247, 130, 63);
+        
+    }
+
+    li:hover {
+        background-color: #555;
+        color: white;
+    }
+
+    li:last-child{
+        float: right;
+    }
+    
+    .catcontent{
+        font-family: 'Cute Font', cursive;
+        font-size: 36px;
+    }
+
+    .cat{
+        font-family: 'Lobster', cursive;
+        font-size: 56px;
+    }
+
+    p{
+        text-align: center;
+    }
+        
+
+              ion-card{
+                border: 5px solid black;
+                padding: 50px;
+                 margin: 50px;
+
+                .img{
+                    align-self: center;
+                    width:100%;
+                    height:55%;
+                    }
+        
+                    .catcontentii{
+                        font-family: 'Cute Font', cursive;
+                        font-size: 48px;
+                    }
+        
+                    .catcontentsss{
+                        font-family: 'Cute Font', cursive;
+                        font-size: 32px;
+                    }
+        
+                    .col-50 {
+                        display: -webkit-box;
+                        display: -webkit-flex;
+                        display: -ms-flexbox;
+                        display: flex;
+                      }
+                      .card {
+                        width:100%;
+                        display: -webkit-box;
+                        display: -webkit-flex;
+                        display: -ms-flexbox;
+                        display: flex;
+                        -webkit-box-orient: vertical;
+                        -webkit-box-direction: normal;
+                        -webkit-flex-direction: column;
+                            -ms-flex-direction: column;
+                                flex-direction: column;
+                      }
+            }
+}
+
+

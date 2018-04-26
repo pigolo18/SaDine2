@@ -1,0 +1,67 @@
+<ion-header>
+  <ion-navbar>
+    <div class="navi">
+    
+    <ul>
+      <li (click)="goHome()" class="active">Home</li>
+      <li (click)="goCaring()">Caring</li>
+      <li (click)="goTraining()">Training</li>
+      <li (click)="goFeeding()">Feeding</li>
+      <li (click)="goHealth()">Health</li>
+      <li (click)="goCats()">My Cats</li>
+    </ul>
+
+  </div>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+<ion-grid>
+  <ion-row>
+    <ion-col vertical-align="center" padding-left="10px" class="col col-33">
+      <ion-slides autoplay='3000' loop direction='vertical'>
+
+        <ion-slide>
+          
+          <img class="img" src="assets/imgs/IMG_5274.JPG" width="350" height="350" padding align="center">
+        </ion-slide>
+      
+        <ion-slide>
+          <img class="img" src="assets/imgs/IMG_5278.JPG" width="350" height="350" padding align="center">
+        </ion-slide>
+      
+        <ion-slide>
+          <img class="img" src="assets/imgs/IMG_5283.JPG" width="350" height="350" padding align="center">
+        </ion-slide>
+
+        <ion-slide>
+            <img class="img" src="assets/imgs/IMG_5276.JPG" width="350" height="350" padding align="center">
+        </ion-slide>
+      
+      </ion-slides>
+
+    </ion-col>
+    <ion-col>
+      <h3 class="cat">Cats</h3>
+      <!-- <h5 ion-item no-lines>
+        <ion-avatar item-start><img src='assets/imgs/profile_pic.jpg' width="32" height="32"></ion-avatar> by <strong>Nadine De Luna</strong>
+      </h5> -->
+          <ion-item text-wrap no-lines>
+             <h1 class="catcontent"> 
+          Cats have been with us ever since the start of humanity. Being the chosen animal of the Egyptians,
+        they became an important part of their history. Soon, the rule of cats spread throughout the world 
+        with their breeds evolving from the simple hairless but adorable sphynx to the furry and lovable 
+        persian, cats are one of the most friendliest and typically chosen type of pet of the average human.
+             </h1>
+          </ion-item>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+  
+          
+      
+          
+     
+
+</ion-content>

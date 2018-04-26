@@ -1,0 +1,29 @@
+<ion-menu [content]="content">
+  <ion-header class="header">       
+    <ion-toolbar clear class= "toolbar">
+      
+      <button ion-item clear no-lines class="head" [navPush]="pushPage" id='con' (click)="special()">
+        <ion-avatar item-start>
+        <img src='assets/imgs/profile_pic2.jpg'>
+      </ion-avatar>
+      <h1>Nadine De Luna</h1>
+      </button>
+    
+    </ion-toolbar>
+  </ion-header>        
+
+  <ion-content>
+    <ion-list >
+      <button menuClose ion-item class="pagelist" *ngFor="let p of pages" (click)="openPage(p)">
+          <ion-avatar item-start>
+              <img [src]='p.avatar'>
+            </ion-avatar>
+        {{p.title}}
+      </button>
+    </ion-list>
+  </ion-content>
+
+</ion-menu>
+
+<!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>
